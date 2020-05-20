@@ -4,14 +4,18 @@ A new Flutter application.
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
-
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
 # AutoLudoPlayer
+
+Instruction to run application
+1.clone this repo from develop branch
+2.run gameDriver.dart file
+{Hint:Does not require Emulator of Android device.So select  selected device none}
+
+ Running Flow of code:
+ gameDriver.dart => game.dart=> singleplayer.dart
+
+ How Game plays :
+ 1.In playGame function inside game.dart noOnDice is generated randomly.
+ 2.Piece Number to Move is selected randomly
+ 3.if piece selected to play is not opned randomly selects other piece if any other piece is active. else passes dice to next player.
+
